@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 
 //setting up mailchimp package (in mailchimp documentations)
 mailchimp.setConfig({
-    apiKey: '8c24e881efac7a16bfbed4a26fc707c3-us21', 
+    apiKey: XXXXXXXXX, 
     server: 'us21'
   });
 
